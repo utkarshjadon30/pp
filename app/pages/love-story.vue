@@ -103,7 +103,8 @@
                   :enter="{ scale: 1, opacity: 1, transition: { duration: 1000 } }"
                   class="text-h4 font-weight-bold text-pink-darken-3 mb-8"
                 >
-                  Prachi, will you be my girlfriend? 💍
+                  Prachi Arya,I don’t care who your first love was; I intend to be your last.
+                  Will you be my headache forever? 💍
                 </h2>
                 
                 <div class="d-flex justify-center align-center gap-4 flex-wrap">
