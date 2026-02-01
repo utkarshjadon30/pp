@@ -29,10 +29,10 @@
         >
           <v-icon icon="mdi-heart-multiple" color="pink-accent-1" size="80" class="mb-6"></v-icon>
           
-          <h1 class="text-h3 font-weight-bold text-pink-darken-2 mb-6">Our Happy Place</h1>
+          <h1 class="text-h3 font-weight-bold text-pink-darken-2 mb-6">Where Magic Began...</h1>
           
           <p class="text-h6 text-pink-lighten-1 font-italic mb-8 lh-lg">
-            "In your arms, I've found my forever home. Every moment we spend together is a melody that plays in my heart, soft and sweet like this very tune."
+            "Some journeys are defined by miles, but ours was defined by moments. It started with a trip filled with laughter and pure fun, where we bonded in ways I never expected. Amidst the magic of the camping site, under a sky full of stars, we found something beautiful in each other. That first kiss wasn't just a spark—it was the moment I knew you were the one."
           </p>
 
           <v-divider class="mb-8"></v-divider>
