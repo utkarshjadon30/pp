@@ -138,21 +138,23 @@
 
           <!-- Success State -->
           <div v-else class="success-section py-10" v-motion :initial="{ scale: 0.5, opacity: 0 }" :enter="{ scale: 1, opacity: 1 }">
-            <v-icon icon="mdi-heart-pulse" color="red-accent-2" size="120" class="heart-beat mb-4"></v-icon>
-            <h2 class="text-h3 font-weight-bold text-pink-darken-3 mb-4">Yay! My Heart is Yours! Forever. 💖</h2>
-            <p class="text-h6 text-pink-lighten-1 mb-8">This is the happiest day of my life!</p>
+            <div class="barca-theme mb-6">
+              <v-icon icon="mdi-soccer" color="blue-darken-4" size="60"></v-icon>
+              <v-icon icon="mdi-heart" color="red-darken-4" size="40" class="mx-2"></v-icon>
+              <v-icon icon="mdi-soccer" color="red-darken-4" size="60"></v-icon>
+            </div>
+            <h2 class="text-h3 font-weight-bold barca-text mb-4">Visca el Barça! ❤️�</h2>
+            <p class="text-h6 text-pink-darken-1 mb-8">
+              I’m an FC Barcelona man through and through, and now I finally have the perfect partner to watch my team with. My heart and my team, all in one place!
+            </p>
             
             <div class="success-video-wrapper mx-auto elevation-12 rounded-xl overflow-hidden mb-6" style="max-width: 500px; border: 3px solid #f471b633;">
-              <video 
-                autoplay 
-                loop 
-                playsinline 
-                controls
-                style="width: 100%; display: block;"
-              >
-                <source src="/prachi/WhatsApp Video 2026-01-31 at 21.41.46.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
+              <v-img
+                src="/prachi/messi-kiss-lionel-messi.gif"
+                alt="Messi Love"
+                cover
+                class="rounded-xl"
+              ></v-img>
             </div>
           </div>
         </v-card>
@@ -335,5 +337,20 @@ onMounted(() => {
 
 .no-button {
   z-index: 5;
+}
+
+.barca-text {
+  background: linear-gradient(to right, #004D98, #A50044);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.barca-theme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 </style>
