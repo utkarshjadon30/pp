@@ -28,14 +28,14 @@
           </div>
 
           <v-card-text class="px-6 px-sm-10 pb-10">
-            <h1 class="text-h4 font-weight-bold text-center mb-2 text-pink-darken-1">Hello Love</h1>
-            <p class="text-subtitle-1 text-center mb-8 text-pink-lighten-2">Welcome back to our cozy corner</p>
+            <h1 class="text-h4 font-weight-bold text-center mb-2 text-pink-darken-1">Access Restrict-ed! 🤫</h1>
+            <p class="text-subtitle-1 text-center mb-8 text-pink-lighten-2">Entrance only for the official 'Prachibot'. Unauthorized cuteness will be prosecuted! 👮‍♀️💖</p>
 
             <v-form @submit.prevent="handleLogin">
               <v-text-field
-                v-model="email"
-                label="Your Sweet Email"
-                prepend-inner-icon="mdi-email-outline"
+                v-model="username"
+                label="Your Sweet Username"
+                prepend-inner-icon="mdi-account-heart-outline"
                 variant="outlined"
                 color="pink-lighten-2"
                 class="rounded-lg mb-2"
@@ -99,14 +99,14 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 
-const email = ref('')
+const username = ref('')
 const password = ref('')
 const loading = ref(false)
 const showHint = ref(false)
 const showPassword = ref(false)
 
 const handleLogin = () => {
-  if (email.value === 'prachi00290@gmail.com' && password.value === 'kissme') {
+  if (username.value === 'prachibot' && password.value === 'kissme') {
     loading.value = true
     setTimeout(() => {
       loading.value = false
